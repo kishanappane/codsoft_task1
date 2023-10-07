@@ -1,0 +1,122 @@
+.navbar
+{
+    background-color: #BB2525;
+}
+
+.logo
+{
+    height: 100px;
+    width: 100px;;
+}
+
+.navbar-brand
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    bottom: 25px;
+    top: 25px;
+}
+
+.navbar-content
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.navbar-brand:hover{
+    color:white;
+}
+
+body
+{
+    background-color: #FFF5E0;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.category li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #BB2525;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background-color: #FF6969;
+}
+
+.category a{
+    text-decoration: none;
+    color:white
+}
+
+.category li:hover{
+    background-color: #141E46;
+}
+
+h3{
+    padding-left: 80px;
+    padding-top: 25px;
+    font-weight: bold;
+    color: #FFF5E0;
+}
+
+.book img{
+    padding: 25px;
+    width: 270px;
+    height: 360px;
+    border-radius: 30px;
+}
+
+.book{
+    margin: 25px;
+    display: inline-block;
+    background-color: #BB2525;
+}
+
+.book button{
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight:500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.book-container{
+    width: auto;
+    margin-left: 100px;
+}
+
+.book button:hover{
+    background-color: #504099;
+    color: white;
+}
+
+.imgcontainer{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.99)),url("./book.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
